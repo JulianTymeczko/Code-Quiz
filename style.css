@@ -1,0 +1,51 @@
+main{
+    margin: auto;
+    margin-top: 110px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+main h1,p{
+   margin-bottom: 40px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 600;
+}
+h1{
+    font-size: 2.5em;
+}
+p{
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.1em;
+}
+section span{
+    float: right;
+    margin-right: 10px;
+}
+
+section a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+section a:hover{
+    text-decoration: underline;
+}
+section.top{
+    margin-top: 20px;
+}
+#Start-Quiz{
+    background-color: darkmagenta;
+    color: antiquewhite;
+    opacity: .8;
+    border: 1px solid black; 
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#Start-Quiz:hover{
+    opacity: 4;
+}
+
+
