@@ -20,6 +20,11 @@ p{
     text-align: center;
     font-size: 1.1em;
 }
+#Main-Quiz p{
+    text-align: start;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
 section span{
     float: right;
     margin-right: 10px;
@@ -39,13 +44,111 @@ section.top{
     background-color: darkmagenta;
     color: antiquewhite;
     opacity: .8;
-    border: 1px solid black; 
-    border-radius: 4px;
     padding: 2px;
+    text-decoration: none;
 }
 
 #Start-Quiz:hover{
     opacity: 4;
 }
+main button{
+    border: 1px solid black; 
+    border-radius: 4px;
+}
+#Main-Quiz{
+    display: block;
+    
+}
 
 
+#Main-Quiz h1,ol{
+    margin-bottom: 30px;
+}
+
+#Main-Quiz span{
+    border-top: 3px solid rgb(209, 204, 204);
+    padding-top: 10px;
+    display:block;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: .70;
+  
+    
+}
+#Main-Quiz button{
+    margin-top: 5px;
+    background-color: rgb(51, 4, 95);
+    color: rgb(197, 197, 197);
+    padding: 3px;
+}
+
+
+#Main-Quiz button:hover{
+    background-color: rgb(161, 86, 231);
+    color: rgb(255, 255, 255);
+}
+
+#Main-Quiz h1{
+    font-size: 1.6em;
+    width:50%;
+}
+
+form{
+    margin-bottom: 15px;
+}
+
+form label,#Enter-Initials{
+    margin-right:4px
+}
+#Submit-Button{
+    background-color: rgb(51, 4, 95);
+    color: rgb(197, 197, 197);
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+#Submit-Button:hover{
+    background-color: rgb(161, 86, 231);
+    color: rgb(255, 255, 255);
+
+}
+
+#Highscores{
+    background-color: rgb(51, 4, 95);
+    color: rgb(197, 197, 197);
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+#Highscores:hover{
+    background-color: rgb(161, 86, 231);
+    color: rgb(255, 255, 255);
+
+}
+
+#rightorwrong{
+    visibility: hidden;
+    
+}
+   
+
+#highscorelist{
+    list-style: inside;
+    list-style-type: decimal;
+    background-color: rgb(252, 224, 228);
+    width:80%;
+   padding:3px;
+}
+
+#Highscores-Main {
+    display:block;
+    width: 30%;
+
+}
+
+.ScoreListEl{
+    margin-bottom: 15px;
+    font-weight: 650;
+}
